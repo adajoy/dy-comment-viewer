@@ -139,7 +139,7 @@ function App() {
 
             {/* Pagination Controls */}
             {users.length > 0 && totalPages > 1 && (
-              <div className="flex items-center justify-between px-6 py-4 border-t">
+              <div className="flex items-center justify-between px-6 py-4 border-t flex-col-reverse sm:flex-row gap-2">
                 <div className="text-sm text-muted-foreground">
                   显示第 {startIndex + 1} 到 {Math.min(endIndex, users.length)} 项，共 {users.length} 项
                 </div>
