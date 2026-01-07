@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { nitro } from 'nitro/vite'
 
 const config = defineConfig({
-  base: "/",
+  base: "/comment-view",
   plugins: [
     devtools(),
     nitro(),

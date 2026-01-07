@@ -8,7 +8,7 @@ export const getRouter = () => {
   const router = createRouter({
     routeTree,
     context: {},
-    basepath: '/',
+    basepath: '/comment-view',
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
   })
