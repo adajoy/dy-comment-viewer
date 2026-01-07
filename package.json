@@ -21,6 +21,7 @@
     "@faker-js/faker": "^10.0.0",
     "@prisma/adapter-pg": "^7.2.0",
     "@prisma/client": "^7.2.0",
+    "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/match-sorter-utils": "^8.19.4",
     "@tanstack/react-devtools": "^0.7.0",
